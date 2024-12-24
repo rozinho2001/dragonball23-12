@@ -1,0 +1,290 @@
+* {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color:#000;
+    text-decoration:none
+    }
+    
+    header {
+    display:flex;
+    list-style:none;
+    height:90px;
+    align-items:center;
+    justify-content:space-around
+    }
+    nav {
+        width:80%
+        }
+        
+        ul {
+        display:flex;
+        justify-content:space-between;
+        width:100%
+        }
+        
+        li {
+        list-style:none;
+        color:orange;
+        font-size:19px;
+        cursor:pointer;
+        transition:.2s;
+        font-family:fantasy
+        }
+        
+        li:hover {
+        color:blue
+        }
+        
+        .logo {
+        width:90px;
+        height:auto;
+        font-family:sour gumm
+        }
+
+        .div-pai{
+            /* background-color: blueviolet; */
+            width: 100%;
+            margin-top: 10px;
+            color: white;
+            display: grid;
+            flex-direction: column;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+
+        .div-filho{
+            background-color: yellow;
+            width: 50%;
+        }
+
+        .foto-inicio{
+            background-image: url(./todos-arquivos-que-preciso/banner\ fotos.jpeg);
+            background-size: cover;
+            width: 40%;
+            justify-content: center;
+            display: flex;
+            margin-left: 400px;
+            height: 250px;
+            cursor: pointer;
+            
+            
+        }
+        #foto-inicio{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+        
+        .foto-banner{
+            height: 100px;
+           
+        }
+
+        .titulo{
+            width: 40%;
+            justify-content: center;
+            display: flex;
+            margin-left: 400px;
+            color: white;
+            margin-top: 10px;
+            font-family: "Amita", serif;
+            font-size: 20px;
+            
+        }
+        .amita-regular {
+            font-family: "Amita", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
+          .amita-bold {
+            font-family: "Amita", serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+          #foto1pai{
+              margin-left: 100px;
+              width: 30%;
+              
+          }
+          #fotostyle{
+            background-image: url(./todos-arquivos-que-preciso/Freeza-dourado.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 200%;
+            height: 300px;
+          cursor: pointer;
+          }
+
+            #fotoescrita{
+                margin-left: 100px;
+                width: 100%;
+            }
+            #foto1pai:hover{
+                transform: scale(1.15);
+                transition: 2s;
+                
+            }
+
+
+        #foto2pai{
+            width: 30%;
+            margin-left: 100px;
+
+        }
+
+
+        #fotostyle2{
+            width: 200%;
+            background-image: url(./todos-arquivos-que-preciso/goku\ no\ chão.jpeg);
+            height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        
+        #fotoescrita2{
+
+            margin-left: 100px;
+                width: 120%;
+        }
+        #foto2pai:hover{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+          
+        #foto3pai{
+            width: 30%;
+            margin-left: 100px;
+            margin-top: 20px;
+
+        }
+        
+        #fotostyle3{
+            width: 200%;
+            background-image: url(./todos-arquivos-que-preciso/vegeta\ renascimento\ de\ freeza.jpg);
+            height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        
+        #fotoescrita3{
+
+            margin-left: 100px;
+                width: 120%;
+        }
+        #foto3pai:hover{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+
+        #foto4pai{
+            width: 30%;
+            margin-left: 100px;
+            margin-top: 20px;
+
+        }
+        
+        #fotostyle4{
+            width: 200%;
+            background-image: url(./todos-arquivos-que-preciso/goku\ e\ freeza.jpg);
+            height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        
+        #fotoescrita4{
+
+            margin-left: 100px;
+                width: 120%;
+        }
+        #foto4pai:hover{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+
+        #foto5pai{
+            width: 30%;
+            margin-left: 100px;
+            margin-top: 20px;
+            
+
+        }
+        
+        #fotostyle5{
+            width: 200%;
+            background-image: url(./todos-arquivos-que-preciso/gokusó.jpeg);
+            height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        
+        #fotoescrita5{
+
+            margin-left: 100px;
+                width: 120%;
+        }
+        #foto5pai:hover{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+        #foto6pai{
+            width: 30%;
+            margin-left: 100px;
+            margin-top: 20px;
+            cursor: pointer;
+
+
+        }
+        #foto6pai:hover{
+            transform: scale(1.15);
+            transition: 2s;
+            
+        }
+        
+        #fotostyle6{
+            width: 200%;
+            background-image: url(/todos-arquivos-que-preciso/vegeta\ e\ goku.jpeg);
+            height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        #fotoescrita6{
+
+            margin-left: 100px;
+                width: 120%;
+        }
+
+
+        .RODA-PE {
+            margin-bottom:50px;
+            height:400px;
+            justify-content:space-around;
+            align-items:center;
+            flex-direction:column;
+            display:flex;
+            font-size:25px
+            }
+
+            .texto-footer {
+                color:#fff;
+                font-family:fantasy
+                }
+
+                #imagem-roda-pe {
+                    width:180px;
+                    height:auto
+                    }
+
+
+

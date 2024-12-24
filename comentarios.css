@@ -1,0 +1,158 @@
+* {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color:#000;
+    text-decoration:none
+    }
+    
+    header {
+    display:flex;
+    list-style:none;
+    height:90px;
+    align-items:center;
+    justify-content:space-around
+    }
+    
+    nav {
+    width:80%
+    }
+    
+    ul {
+    display:flex;
+    justify-content:space-between;
+    width:100%
+    }
+    
+    li {
+    list-style:none;
+    color:orange;
+    font-size:19px;
+    cursor:pointer;
+    transition:.2s;
+    font-family:fantasy
+    }
+    
+    li:hover {
+    color:blue
+    }
+    
+    .logo {
+    width:90px;
+    height:auto;
+    font-family:sour gumm
+    }
+
+    .RODA-PE {
+        margin-bottom:50px;
+        height:400px;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+        display:flex;
+        font-size:25px
+        }
+        
+        .texto-footer {
+        color:#fff;
+        font-family:fantasy
+        }
+        #imagem-roda-pe {
+            width:180px;
+            height:auto
+            }
+
+            .pai-geral{
+
+                max-width:100%;
+                height: auto;
+                /* background-color: aqua; */
+                border: 2px solid orange;
+                margin: 50px;
+               
+            }
+            
+            #div1{
+
+                width: 1350px;
+                height: 200px;
+                border: 2px solid white;
+                margin: 25px;
+                display: flex;
+            }
+            #div1:hover{
+                border: 2px solid blue;
+            }
+
+            #div-foto-avaliação{
+                color: white;
+            }
+            #div-avaliação{
+                color: white;
+            }
+            .pagina-inicial{
+                color: white;
+                transition: 1s;
+                
+            }
+            .pagina-inicial:hover{
+
+                color:blue;
+            }
+
+            #deixe-seu-comentario{
+                color: rgb(142, 142, 228);
+                transition: 1s;
+                font-family:serif
+
+            }
+            #deixe-seu-comentario:hover{
+                color: rgb(40, 18, 237);
+            }
+            
+            .letras{
+
+                color: white;
+                background-color: transparent;
+                margin-left: -75px;
+            }
+            .comentarios{
+
+                display: flex;
+                background-color: rgb(8, 1, 20);
+                border: 2px solid white;
+                margin: 10px;
+                height: 115px;
+                margin: 20px;
+            }
+            .div-pai2{
+
+                width: 1350px;
+                height: auto;
+                border: 2px solid blue;
+                margin: 25px;
+                
+            }
+            
+            .icone-usuario{
+
+                background-color: transparent;
+                margin-left: 5px;
+                border: 10px;
+                cursor: pointer;
+
+            }
+
+            #teatle-comentarios{
+                color: white;
+                margin-left: 40%;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .comentarios-reais{
+                color: white;
+                margin: 40px;
+                margin-top: 25px;
+                margin-left: 50px;
+                font-size: 25px;
+                background-color: transparent;
+            }

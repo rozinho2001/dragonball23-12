@@ -1,0 +1,213 @@
+
+* {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color:#000;
+    background-size: cover;
+    text-decoration:none
+    }
+    
+    header {
+    display:flex;
+    list-style:none;
+    height:90px;
+    align-items:center;
+    justify-content:space-around
+    }
+    nav {
+        width:80%
+        }
+        
+        ul {
+        display:flex;
+        justify-content:space-between;
+        width:100%
+        }
+        
+        li {
+        list-style:none;
+        color:orange;
+        font-size:19px;
+        cursor:pointer;
+        transition:.2s;
+        font-family:fantasy
+        }
+        
+        li:hover {
+        color:blue
+        }
+        
+        .logo {
+        width:90px;
+        height:auto;
+        font-family:sour gumm
+        }
+
+
+
+#descrição{
+
+    background-color:  rgba(0, 0, 0, 0);
+  margin-left: 300px;
+  width: 50%;
+  padding-left: 350px;
+  
+  
+ 
+}
+#acesse{ 
+    padding-bottom: 10px;
+   background-color:  rgba(0, 0, 0, 0);
+    font-size: 40px;
+        color: white; /* Cor do texto */
+        text-shadow: 
+            2px 2px 0 rgb(44, 44, 167),   /* Sombra inferior direita */
+            -2px 2px 0 rgb(17, 16, 16),  /* Sombra inferior esquerda */
+            2px -2px 0 black,  /* Sombra superior direita */
+            -2px -2px 0 black; /* Sombra superior esquerda */
+  
+  
+}
+
+
+#button-forms:hover{
+
+    color: black;
+    background-color: blue;
+}
+#button-forms{
+   
+
+    display: flex;
+    color: #000;
+    margin-left: 200px;
+    background-color: white;
+    margin-top: 2,5px;
+    margin-left: 850px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 25px;
+    box-shadow: rgba(0, 0, 0, 5);
+    border: 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#button-forms2:hover{
+    background-color: blue;
+    color: black;
+}
+#button-forms2{
+    
+    display: flex;
+    color: #000;
+    margin-left: 200px;
+    background-color: white;
+    margin-top: 2,5px;
+    margin-left: 850px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 5);
+    border: 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#vambora{
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 100px;
+    text-align: center;
+   
+    
+
+}
+
+#email{
+    
+    width: 398px;
+    height: 30px;
+    background-color: white;
+    /* margin-top: 150px; */
+    /* display: block; */
+    margin-left: 680px;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 25px;
+    box-shadow: rgba(0, 0, 0, 5);
+    border: 2px solid;
+    
+    
+}
+
+#password{
+    margin-left: 200px;
+    width: 398px;
+    height: 30px;
+    background-color: white;
+    color: #000;
+    margin-top: 2,5px;
+    margin-left: 680px;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 25px;
+    box-shadow: rgba(0, 0, 0, 5);
+    border: 2px solid;
+    
+}
+#pai-forms{
+
+    width: 60%;
+    margin-left: 400px;
+    /* background-image: url(./todos-arquivos-que-preciso/goku\ e\ freeza.jpg); */
+    background-color: rgba(0, 0, 0, 0);
+    /* margin-top: 200px; */
+    /* height: 500px; */
+    /* padding-bottom: 800px; */
+/* padding-bottom: 100px; */
+position: absolute;
+}
+
+#foto-fundo{
+
+width: 100%;
+height: 450px;
+background-image: url(./todos-arquivos-que-preciso/banner\ fotos.jpeg);
+background-size: cover;
+/* padding-top: 200px; */
+position: relative;
+}
+
+
+
+
+.RODA-PE {
+    margin-bottom:50px;
+    height: px;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+    font-size:25px;
+    
+    }
+
+    .texto-footer {
+        color:#fff;
+        font-family:fantasy
+        }
+
+        #imagem-roda-pe {
+            width: 150px;
+            }
